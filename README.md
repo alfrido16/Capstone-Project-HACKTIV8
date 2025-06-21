@@ -80,6 +80,6 @@ AI digunakan secara relevan dalam proyek ini, terutama dalam bentuk bantuan dari
 
 - **Nama:** Alfrido Lakhomi Zebua  
 - **Email:** didozebua0@gmail.com  
-- **GitHub:** [github.com/alfrid016](https://github.com/alfrido16)
+- **GitHub:** [github.com/alfrido16](https://github.com/alfrido16)
 
 
