@@ -7,6 +7,8 @@ Proyek ini bertujuan untuk menganalisis pola dan tren penumpang TransJakarta ber
 Dataset yang digunakan dalam analisis ini berasal dari file `dfTransjakarta.csv` dan 'dfTransjakarta180kRows.csv'.
 
 Link dataset: `https://www.kaggle.com/datasets/dikisahkan/transjakarta-transportation-transaction/data`
+Download dfTransjakarta.csv (https://drive.google.com/file/d/1LZ5AJI0sEPdr1z19CQHS6D62YmhD7_8V/view?usp=drive_link)
+Download dfTransjakarta180kRows.csv (https://drive.google.com/file/d/1qW_LJcOWOYO2PlAFO8m6fed_ee4Y7ZA5/view?usp=drive_link)
 
 ## Insight & Findings
 Berikut adalah temuan utama dari hasil analisis data:
