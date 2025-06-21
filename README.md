@@ -16,7 +16,7 @@ Berikut adalah temuan utama dari hasil analisis data:
 - Koridor `Cibubur - Balai Kota` merupakan jalur paling sering digunakan
 - Kartu Bank DKI adalah metode pembayaran yang paling populer
 
-## 🤖 AI Support Explanation
+## AI Support Explanation
 Selama pengerjaan proyek ini, AI digunakan untuk:
 - Membantu menyusun laporan analisis dan interpretasi visualisasi
 - Memberikan rekomendasi struktur laporan (seperti README.md ini)
