@@ -1,25 +1,85 @@
-# Analisis Data Penumpang TransJakarta
+# Analisis Data Penumpang TransJakarta Tahun 2023
 
-## Project Overview
-Proyek ini bertujuan untuk menganalisis pola dan tren penumpang TransJakarta berdasarkan data yang mencakup waktu perjalanan, jenis kelamin, kelompok usia, jenis kartu pembayaran, dan koridor yang digunakan. Dengan memahami data ini, diharapkan dapat memberikan insight yang berguna untuk pengembangan layanan TransJakarta ke depan.
+# Project Overview
+
+Transportasi publik yang efisien menjadi tulang punggung mobilitas masyarakat urban. Salah satu moda transportasi massal yang penting di DKI Jakarta adalah TransJakarta. Proyek ini bertujuan untuk menganalisis data penumpang TransJakarta tahun 2023 guna menggali wawasan mendalam tentang perilaku pengguna, waktu-waktu sibuk, serta rute dan metode pembayaran yang paling sering digunakan.
+
+Melalui pendekatan berbasis data, diharapkan hasil analisis ini dapat memberikan rekomendasi strategis yang berdampak nyata terhadap perbaikan layanan TransJakarta, mulai dari pengaturan jadwal hingga optimalisasi armada dan rute.
 
 ## Raw Dataset
-Dataset yang digunakan dalam analisis ini berasal dari file `dfTransjakarta.csv` dan 'dfTransjakarta180kRows.csv'.
 
-Link dataset: `https://www.kaggle.com/datasets/dikisahkan/transjakarta-transportation-transaction/data`
-Download dfTransjakarta.csv (https://drive.google.com/file/d/1LZ5AJI0sEPdr1z19CQHS6D62YmhD7_8V/view?usp=drive_link)
-Download dfTransjakarta180kRows.csv (https://drive.google.com/file/d/1qW_LJcOWOYO2PlAFO8m6fed_ee4Y7ZA5/view?usp=drive_link)
+Dataset diperoleh dari sumber terbuka yang berisi informasi transaksi harian TransJakarta selama tahun 2023, termasuk:
+- Tanggal transaksi
+- Jumlah penumpang
+- Kategori usia dan gender
+- Metode pembayaran (e-money, QRIS, dsb)
+- Nama bank penerbit kartu
+- Koridor/rute
 
-## Insight & Findings
-Berikut adalah temuan utama dari hasil analisis data:
-- Waktu puncak penumpang terjadi pada jam 06.00 dan 17.00
-- Hari kerja memiliki jumlah penumpang yang jauh lebih tinggi daripada akhir pekan
-- Mayoritas pengguna adalah perempuan dan kelompok usia dewasa muda
-- Koridor `Cibubur - Balai Kota` merupakan jalur paling sering digunakan
-- Kartu Bank DKI adalah metode pembayaran yang paling populer
+> [Link Dataset (https://www.kaggle.com/datasets/dikisahkan/transjakarta-transportation-transaction/datav)
+> dfTransjakarta.csv (https://drive.google.com/file/d/1LZ5AJI0sEPdr1z19CQHS6D62YmhD7_8V/view?usp=drive_link)
+> dfTransjakarta180kRows.csv (https://drive.google.com/file/d/1qW_LJcOWOYO2PlAFO8m6fed_ee4Y7ZA5/view?usp=drive_link)
 
-## AI Support Explanation
-Selama pengerjaan proyek ini, AI digunakan untuk:
-- Membantu menyusun laporan analisis dan interpretasi visualisasi
-- Memberikan rekomendasi struktur laporan (seperti README.md ini)
-- Membantu membuat penjelasan yang sistematis dan rapi
+# Analysis Process
+
+Analisis dilakukan menggunakan Google Colab dengan bahasa pemrograman Python dan library populer seperti `pandas`, `matplotlib`, dan `seaborn`.
+
+Langkah-langkah yang dilakukan:
+
+1. **Data Cleaning**  
+   - Menghapus duplikasi dan data null  
+   - Standarisasi format tanggal dan nama kolom  
+
+2. **Exploratory Data Analysis (EDA)**  
+   - Visualisasi jumlah penumpang per bulan  
+   - Analisis distribusi berdasarkan usia, gender, metode pembayaran, dan koridor  
+   - Identifikasi waktu puncak penggunaan
+
+3. **Insight Extraction**  
+   - Membandingkan tren antar variabel  
+   - Menganalisis pola berdasarkan waktu (mingguan dan harian)  
+   - Evaluasi koridor dan bank kartu terbanyak
+
+4. **Visualisasi**  
+   - Bar chart, pie chart, heatmap, dan line chart untuk memperkuat pemahaman data
+
+
+# Insight & Findings
+
+Beberapa insight utama yang diperoleh dari analisis:
+
+- **Jam Tertinggi** penggunaan TransJakarta terjadi pukul **07.00–09.00 pagi**, menunjukkan mobilitas saat berangkat kerja.
+- **Kelompok pengguna dominan** adalah perempuan usia **25–35 tahun**.
+- **Koridor 1 dan 9** adalah rute paling sibuk, berpotensi untuk ditambah armada.
+- **Metode pembayaran** e-money mendominasi, terutama dari **Bank DKI dan BCA**.
+- Penggunaan layanan meningkat di hari kerja, dan menurun signifikan pada akhir pekan.
+
+
+# Conclusion & Recommendation
+
+Berdasarkan insight yang diperoleh, berikut beberapa rekomendasi yang dapat diterapkan:
+
+1. **Penambahan armada dan frekuensi bus** di jam sibuk (07.00–09.00).
+2. **Evaluasi dan penyesuaian rute** di koridor sibuk seperti Koridor 1 & 9.
+3. **Perluasan kerja sama dengan bank** penyedia e-money untuk integrasi layanan pembayaran.
+4. **Kampanye promosi pada akhir pekan** untuk meningkatkan jumlah penumpang.
+5. **Peningkatan fasilitas penunjang** di halte dengan lalu lintas tinggi.
+
+
+# AI Support Explanation
+
+AI digunakan secara relevan dalam proyek ini, terutama dalam bentuk bantuan dari Large Language Model (LLM) seperti ChatGPT untuk:
+
+- Menyusun struktur analisis dan langkah-langkah eksplorasi data.
+- Menjelaskan insight yang diperoleh secara logis dan menyeluruh.
+- Membantu merancang dokumentasi seperti README.md dan presentasi.
+- Memberikan umpan balik dalam menyusun kesimpulan dan rekomendasi.
+
+
+# Author
+
+- **Nama:** Alfrido Lakhomi Zebua  
+- **Email:** didozebua0@gmail.com  
+- **GitHub:** [github.com/alfrid016](https://github.com/alfrido16)
+
+
