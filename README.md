@@ -17,8 +17,7 @@ Dataset diperoleh dari sumber terbuka yang berisi informasi transaksi harian Tra
 - Koridor/rute
 
 > [Link Dataset (https://www.kaggle.com/datasets/dikisahkan/transjakarta-transportation-transaction/datav)
-> dfTransjakarta.csv (https://drive.google.com/file/d/1LZ5AJI0sEPdr1z19CQHS6D62YmhD7_8V/view?usp=drive_link)
-> dfTransjakarta180kRows.csv (https://drive.google.com/file/d/1qW_LJcOWOYO2PlAFO8m6fed_ee4Y7ZA5/view?usp=drive_link)
+> [Link Dataset (https://drive.google.com/drive/folders/1L2d-hJpiSQhfBJ3Hg8GiPANHWzXBtWPE?usp=drive_link)
 
 # Analysis Process
 
